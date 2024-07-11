@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article and Aside Example</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  aside {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-left: 20px;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+
+<article>
+  <h1>Main Article</h1>
+  <p>This is the main content of the article...</p>
+  <p>It can contain paragraphs, images, and other HTML elements.</p>
+</article>
+
+<aside>
+  <h2>Related Links</h2>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</aside>
+
+</body>
+</html>
